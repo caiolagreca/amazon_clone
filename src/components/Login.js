@@ -74,8 +74,8 @@ function Login() {
         </form>
 
         <p>
-          Ao acessar, você concorda com os termos e condições de uso do
-          AmazonClone. Por favor, veja nossa política de privacidade e
+          Ao acessar, você concorda com os termos e condições de uso da
+          Amazonia. Por favor, veja nossa política de privacidade e
           interesses.
         </p>
 
