@@ -36,7 +36,7 @@ function Product({ id, title, image, price, rating }) {
 
       <img src={image} alt="capa livro" />
 
-      <button onClick={addToBasket}>Add to Basket</button>
+      <button onClick={addToBasket}>Adicionar ao carrinho</button>
     </div>
   );
 }

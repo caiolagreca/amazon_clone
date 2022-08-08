@@ -1,11 +1,9 @@
 import Login from "./components/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
 import Checkout from "./components/Checkout";
 import { Header } from "./components/Header";
 import Home from "./components/Home";
 import { useEffect } from "react";
-// import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 import Payment from "./components/Payment";

@@ -29,7 +29,7 @@ function Subtotal() {
         thousandSeparator={true}
         prefix={"$"}
       />
-      <button onClick={(e) => navigate("/payment")}>Ir para o checkout</button>
+      <button onClick={(e) => navigate("/payment")}>Ir para o pagamento</button>
     </div>
   );
 }

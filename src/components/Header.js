@@ -5,7 +5,7 @@ import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../StateProvider";
 import { auth } from "../firebase";
-import logo from "../logo.png";
+import logo from "../images/logo.png";
 
 export const Header = () => {
   const [{ basket, user }, dispatch] = useStateValue();
@@ -31,7 +31,7 @@ export const Header = () => {
         <Link to={!user && "/login"}>
           <div onClick={handleAuthentication} className="header__option">
             <span className="header__optionLineOne">
-              Olá {user ? `${user.email}` : "Guest"}
+              Olá {user ? `${user.email}` : ""}
             </span>
             <span className="header__optionLineTwo">
               {user ? "Sign Out" : "Sign In"}

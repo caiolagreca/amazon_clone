@@ -53,7 +53,7 @@ function Payment() {
     <div className="payment">
       <div className="payment__container">
         <h1>
-          Checkout (<Link to="/checkout">{basket?.length} itens</Link>)
+          Produtos (<Link to="/checkout">{basket?.length} itens</Link>)
         </h1>
         <div className="payment__section">
           <div className="payment__title">
@@ -104,7 +104,7 @@ function Payment() {
                   disabled={processing || disabled || succeeded}
                   onClick={(e) => navigate("/orders")}
                 >
-                  <span>{processing ? <p>Processando</p> : "Buy now"}</span>
+                  <span>{processing ? <p>Processando</p> : "Finalizar compra"}</span>
                 </button>
               </div>
               {error && <div>{error}</div>}
