@@ -53,4 +53,23 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 700px){
+  .payment__section{
+    flex-direction: column;
+  }
+
+  .payment__title{
+    margin-bottom: 2rem;
+  }
+
+  .payment__priceContainer{
+    margin: 3rem 0 1rem 0;
+  }
+
+  .payment__container{
+    width: 100%;
+  }
+
+}
+
 

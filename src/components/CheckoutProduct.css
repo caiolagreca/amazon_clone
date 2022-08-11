@@ -2,10 +2,12 @@
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .checkoutProduct__info {
     padding-left: 20px;
+    width: 50%;
 }
 
 .checkoutProduct__info button{
@@ -19,7 +21,7 @@
 
 .checkoutProduct__image{
     object-fit: contain;
-    width: 180px;
+    width: 50%;
     height: 180px;
 }
 
@@ -32,3 +34,9 @@
     font-weight: 800;
 }
 
+@media screen and (max-width: 700px){
+    .checkoutProduct__title{
+        font-size: 12px;
+    }
+
+}

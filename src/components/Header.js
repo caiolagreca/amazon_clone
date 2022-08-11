@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { useStateValue } from "../StateProvider";
 import { auth } from "../firebase";
 import logo from "../images/logo.png";
+import logo__mobile from "../images/logo_mobile.png";
 
 export const Header = () => {
   const [{ basket, user }, dispatch] = useStateValue();
@@ -18,9 +19,21 @@ export const Header = () => {
 
   return (
     <div className="header">
-      <Link to="/">
-        <img className="header__logo" src={logo} alt="logo amazon" />
-      </Link>
+      <div className="header__logo__container">
+        <Link to="/">
+          <img className="header__logo" src={logo} alt="logo amazon" />
+        </Link>
+      </div>
+
+      <div className="header__logo__mobile__container">
+        <Link to="/">
+          <img
+            className="header__logo__mobile"
+            src={logo__mobile}
+            alt="logo mobile amazon"
+          />
+        </Link>
+      </div>
 
       <div className="header__search">
         <input className="header__searchInput" type="text" />
@@ -30,10 +43,10 @@ export const Header = () => {
       <div className="header__nav">
         <Link to={!user && "/login"}>
           <div onClick={handleAuthentication} className="header__option">
-            <span className="header__optionLineOne">
+            <span className="header__optionLineOne header__optionLineOne__mobile">
               Olá {user ? `${user.email}` : ""}
             </span>
-            <span className="header__optionLineTwo">
+            <span className="header__optionLineTwo header__optionLineTwo__mobile">
               {user ? "Sign Out" : "Sign In"}
             </span>
           </div>
@@ -46,7 +59,7 @@ export const Header = () => {
           </div>
         </Link>
 
-        <div className="header__option">
+        <div className="header__option header__option-mobile">
           <span className="header__optionLineOne">Seu</span>
           <span className="header__optionLineTwo">Prime</span>
         </div>
