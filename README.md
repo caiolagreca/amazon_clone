@@ -25,7 +25,7 @@
   <li>Vercel</li>
 </ul>
 
-<h2>Responsividade 📱</h2>
+<h2>Design Responsivo 📱</h2>
 
 ![image](https://github.com/caiolagreca/amazon_clone/blob/main/src/images/amazon_gif_mobile.gif)
 
