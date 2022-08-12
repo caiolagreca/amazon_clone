@@ -1,6 +1,35 @@
-#README
 
-<img alt='gif_amazonWeb' src='./src/images/Readme-gif.gif'/>
+<h1>AMAZONIA - AMAZON CLONE E-COMMERCE 🛒</h1>
 
-![image](https://user-images.githubusercontent.com/98494814/183493378-ef0ee8d7-72d9-4982-aeeb-de009a847eac.png)
-Projeto criado para simular o e-commerce da Amazon, juntamente com suas funcionalidades. Projeto feito em React, trabalhando com Hooks. Além disso, foi utilizado o Firebase para mapear se o usuário tem Login ou se precisa criar um para acessar o site, gerando uma base de dados de usuários.
+![image](https://github.com/caiolagreca/amazon_clone/blob/main/src/images/amazon_gif.gif)
+
+<h2>Main Features ⚡</h2>
+<ul>
+  <li>Sig In, Sign Out, Criar conta de acesso</li>
+  <li>Adicionar produtos da página principal à cesta</li>
+  <li>Na página de Checkout - Remover itens do carrinho ou prosseguir para a página de pagamento. Também é possível voltar a Página principal clicando na Logo</li>
+  <li>Na página de Pagamento - Remover itens do carrinho ou finalizar o pagamento. Também é possível voltar a Página principal clicando na Logo e para a página de Checkout clicando na Cesta</li>
+</ul>
+
+<h2>Tecnologias utilizadas 💻</h2>
+<ul>
+  <li>ReactJS</li>
+  <li>Javascript</li>
+  <li>CSS</li>
+  <li>HTML</li>
+</ul>
+
+<h2>Serviços utilizados 🛠</h2>
+<ul>
+  <li>Firebase</li>
+  <li>Vercel</li>
+</ul>
+
+<h2>Responsividade 📱</h2>
+
+![image](https://github.com/caiolagreca/amazon_clone/blob/main/src/images/amazon_gif_mobile.gif)
+
+<h2>Autor do Projeto 😀</2>
+<ul>
+  <li>Caio Lagreca</li>
+</ul>
