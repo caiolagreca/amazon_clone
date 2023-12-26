@@ -5,13 +5,13 @@
 
 <h2>Main Features ⚡</h2>
 <ul>
-  <li>Sig In, Sign Out, Criar conta de acesso</li>
-  <li>Adicionar produtos da página principal à cesta</li>
-  <li>Na página de Checkout - Remover itens do carrinho ou prosseguir para a página de pagamento. Também é possível voltar a Página principal clicando na Logo</li>
-  <li>Na página de Pagamento - Remover itens do carrinho ou finalizar o pagamento. Também é possível voltar a Página principal clicando na Logo e para a página de Checkout clicando na Cesta</li>
+  <li>Sign In, Sign Out, Create Access Account</li>
+  <li>Add products from the main page to the cart</li>
+  <li>On the Checkout page - Remove items from the cart or proceed to the payment page. It's also possible to go back to the main page by clicking on the Logo</li>
+  <li>n the Payment page - Remove items from the cart or complete the payment. It's also possible to go back to the main page by clicking on the Logo and to the Checkout page by clicking on the Cart</li>
 </ul>
 
-<h2>Tecnologias utilizadas 💻</h2>
+<h2>Technologies Used 💻</h2>
 <ul>
   <li>ReactJS</li>
   <li>Javascript</li>
@@ -19,17 +19,17 @@
   <li>HTML</li>
 </ul>
 
-<h2>Serviços utilizados 🛠</h2>
+<h2>Services Used 🛠</h2>
 <ul>
   <li>Firebase</li>
   <li>Vercel</li>
 </ul>
 
-<h2>Design Responsivo 📱</h2>
+<h2>Responsive Design 📱</h2>
 
 ![image](https://github.com/caiolagreca/amazon_clone/blob/main/src/images/amazon_gif_mobile.gif)
 
-<h2>Autor do Projeto 😀</2>
+<h2>Project Author</2>
 <ul>
   <li>Caio Lagreca</li>
 </ul>
